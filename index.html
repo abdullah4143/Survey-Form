@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="main">
+
+
+    <h1>Welcome to Form Survey</h1>
+    <form id="form">
+        <div class="form-box">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-box">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="emal" placeholder="Enter your Email">
+        </div>
+        <div class="form-box">
+            <label for="contact">Contact</label>
+            <input type="text" name="contact" id="contact" placeholder="Enter your Phone Number">
+        </div>
+        <div class="form-box">
+            <label>Would you consider me a consider me a good friend</label>
+            <label for="choice-1"><input type="radio" name="choice-1" id="choice-1" >yes</label>
+            
+            <label for="choice-2"><input type="radio" name="choice-2" id="choice-2" >no</label>
+            
+            <label for="choice-3"><input type="radio" name="choice-3" id="choice-3" >maybe</label>
+        </div>
+        <div class="form-box">
+            <label for="dropdown" id="dropdown">Which Option Best Describes You</label>
+            <select name="dropdown" id="dropdown">
+                <option value="Kanjar">Kanjar</option>
+                <option value="Mirasi">Mirasi</option>
+                <option value="Ustad">Ustad</option>
+                <option value="Kasai">Kasai</option>
+                <option value="Kabari">Kabari</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="form-box form-comment">
+            <label for="message-1">any comments or suggestions</label>
+            <textarea type="text" id="message-1" name="message-1" placeholder="Enter Your Comment here"></textarea>
+        </div>
+        <div class="form-box">
+            <button type="submit" value="submit">Submit</button>
+        </div>
+        
+    </form>
+    
+</div>    
+</body>
+</html>
